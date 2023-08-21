@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  background-color: rgba(0, 0, 0, 0.555);
+}
+#header {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+#img-div {
+  text-align: center;
+}
+#image {
+  /* margin-top: 0.3rem; */
+  max-width: 100%;
+  margin: 0.3rem auto;
+  height: auto;
+}
+img {
+  display: block;
+  max-width: 100%;
+
+  margin: auto;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#tribute-info {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 4rem;
+  text-align: justify;
+}
+section p {
+  color: rgb(123, 209, 24);
+  background-color: rgba(3, 3, 3, 0.863);
+  padding: 2rem;
+  border-radius: 0 1rem;
+  margin-top: 4rem;
+}
+#p-title {
+  border: 0.2rem dashed #67cb17;
+  padding: 1rem;
+  text-align: center;
+}
+#img-caption {
+  text-align: justify;
+  margin: 0 auto;
+  width: 70%;
+  color: aliceblue;
+}

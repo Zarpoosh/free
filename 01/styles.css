@@ -1,0 +1,143 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(12, 88, 139, 0.363),
+      rgba(27, 71, 216, 0.795)
+    ),
+    url(./image/siriapps_nature_54275.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 0.625 rem;
+}
+
+form {
+  background-color: #ffffff21;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 0.3125rem;
+}
+
+input,
+textarea,
+fieldset {
+  outline: none;
+  width: 100%;
+  padding: 0.625rem;
+  border: 0.125rem solid #ccc;
+  border-radius: 0.3125rem;
+  margin-top: 0.3125rem;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  padding: 0.625rem 1.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+#container {
+  margin: 0 auto;
+  padding: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+  color: #fff;
+}
+
+#inputs {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+#dropdown {
+  padding: 0.5625rem;
+  width: 100%;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  color: #5e5e5e;
+  outline: none;
+}
+
+#submit {
+  padding: 0.5rem;
+  background-color: #06005ed8;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font: bold;
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1.25rem;
+}
+
+.fieldset {
+  border-radius: 0.3125rem;
+  padding: 0.625rem;
+  width: 100%;
+  margin-top: 1.875rem;
+}
+
+#radio,
+input {
+  width: auto;
+  flex-direction: column;
+  display: inline-flex;
+}
+
+#comments {
+  border-radius: 0.3125rem;
+  height: 8.125rem;
+  width: 95%;
+
+  margin-top: 10prem;
+}
+
+.textarea-group {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+label {
+  color: #fff;
+}
+
+legend {
+  color: #fff;
+  margin: 0.625rem;
+}

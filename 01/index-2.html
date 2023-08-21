@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1 id="title">Hospitalization form</h1>
+            <p id="description">Please take a moment to fill out Hospitalization form.</p>
+        </div>
+        <form id="survey-form">
+            <div id="inputs">
+                <label id="name-label" type="text" for="name">Patient Name :</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+    
+            <div id="inputs">
+                <label id="email-label" for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+    
+            <div id="inputs">
+                <label id="number-label" for="number">Patient Number :</label>
+                <input type="number" id="number" name="number" placeholder="Enter a number" min="1" max="10" required>
+            </div>
+    
+            <div id="inputs">
+    
+                <label for="dropdown">Choosing health insurance :</label>
+                <select id="dropdown" name="dropdown" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="option1">Personal insurance</option>
+                    <option value="option2"> State insurance</option>
+                </select>
+            </div>
+    
+            <fieldset id="radio" class="fieldset">
+                <legend>Gender</legend>
+                <label><input type="radio" name="radioGroup" value="radio1"> female</label>
+                <label><input type="radio" name="radioGroup" value="radio2"> male</label>
+            </fieldset>
+    
+            <fieldset id="radio" class="fieldset">
+                <legend>Symptoms Disease </legend>
+                <label><input type="checkbox" name="checkbox1" value="checkbox1"> Shortness of breath</label>
+                <label><input type="checkbox" name="checkbox2" value="checkbox2">stomach ache </label>
+                <label><input type="checkbox" name="checkbox3" value="checkbox3">  Headache</label>
+            </fieldset>
+    
+            <div class="textarea-group">
+                <label for="comments">Disease Background:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Enter your Description"></textarea>
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </body>
+    </div>
+</html>
