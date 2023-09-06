@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#navbar {
+  width: 20%;
+  height: 100vh;
+  padding: 10px;
+  margin-right: 3rem;
+  border-right: 3px solid gray;
+}
+header {
+  font-size: 2.5rem;
+}
+ul {
+  list-style: none;
+  margin-left: 0;
+  display: block;
+}
+.list li {
+    font-size: large;
+  width: 100%;
+  border-bottom: 2px solid gray;
+  padding: 1rem;
+}
+li:hover{
+    background-color: lightblue;
+}
+a{
+    
+}
