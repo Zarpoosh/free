@@ -47,8 +47,9 @@ p{
     margin-top: 2rem;
 }
 code{
+    display: block;
     background-color: black;
-    padding: 1rem;
+    padding:0.2rem;
     color: yellow;
     margin-top: 1rem;
 }
