@@ -35,6 +35,7 @@ body {
     padding: 0.1rem;
   }
 }
+
 #header-img {
   width: 4rem;
   height: 4rem;
@@ -107,18 +108,17 @@ body {
   margin: 2rem;
 }
 #Features {
-  width: 100%;
+  width: auto;
   margin: auto;
   text-align: center;
   display: flex;
 }
 .pictures {
-  width: 60%;
   display: flex;
   flex-direction: row;
 }
-.fiatures img {
-  background: cover;
-  width: 16rem;
-  height: 15rem;
+.fiatures {
+  width: 11rem;
+  height: 11rem;
+  margin-top: 3rem;
 }
