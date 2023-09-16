@@ -4,31 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header id="header">
-      <img src="#" alt="image" id="header-img" />
-      <nav id="nav-bar">
-        <ul>
-          <li><a href="#about" class="nav-link">About Me</a></li>
-          <li><a href="#how-it-work" class="nav-link">How it works</a></li>
-          <li><a href="#contact" class="nav-link">contact</a></li>
-          <li><a href="#Features" class="nav-link">Features</a></li>
-        </ul>
-      </nav>
+      <div class="header">
+        <div class="img">
+          <img
+            src="https://user-images.githubusercontent.com/122268379/268436082-e34c543d-fb29-4d60-90bf-b1bceceaec16.jpg"
+            alt="image"
+            id="header-img"
+          />
+        </div>
+        <nav id="nav-bar">
+          <ul class="list">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#terms" class="nav-link">terms</a></li>
+            <li><a href="#contact" class="nav-link">contact</a></li>
+            <li><a href="#Features" class="nav-link">Features</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!----------------video 6----------------->
-    <video
-      src="#https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page"
-      id="video"
-    ></video>
+    <section id="media">
+
+      <video id="video" width="320" height="240" controls>
+        <source
+          src="https://sanitary.nyc/wp-content/uploads/2019/05/sanbrand-animated-logo-final-x264.mp4"
+        />
+      </video>
+    </section>
 
     <!-- --------------about me-------------- -->
     <section id="about"></section>
 
-    <!-- ---------------how it works--------------- -->
-    <section id="how-it-work"></section>
+    <!-- ---------------terms--------------- -->
+    <section id="terms"></section>
     <!-- ------------- form --------------- -->
     <form action="https://www.freecodecamp.com/email-submit" id="form">
       <div>
