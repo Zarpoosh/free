@@ -1,0 +1,44 @@
+body {
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  background-color: orange;
+  width: 100%;
+  padding: 0.6rem;
+  display: flex;
+  margin-left: auto;
+  position: fixed;
+}
+.nav-link,
+.social {
+  text-decoration: none;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+}
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+.navbar-logo {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 30%;
+}
+
+#welcome-section{
+    margin-top: 7rem;
+}
