@@ -7,7 +7,7 @@ body {
 }
 
 #navbar {
-  background-color: orange;
+  background-color: rgb(114, 228, 0);
   width: 100%;
   padding: 0.6rem;
   display: flex;
@@ -18,8 +18,11 @@ body {
 .social {
   text-decoration: none;
   width: 100%;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
+}
+.social {
+  color: chartreuse;
 }
 .nav-list {
   list-style-type: none;
@@ -38,7 +41,32 @@ body {
   height: 4rem;
   margin-right: 30%;
 }
+#welcome-section {
+  margin-top: 4rem;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.8)),
+    url(./image/what-is-binary-and-how-does-it-work-4692749-1-1eaec2e636424e71bb35419ef8d5005b.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-#welcome-section{
-    margin-top: 7rem;
+.banner {
+  margin-top: 5rem;
+}
+.banner-box {
+  text-align: center;
+  justify-content: center;
+}
+.banner-text {
+  color: aliceblue;
+ font-size: 3rem;
+}
+h3{
+  color: #fff;
+  font-size: 2rem;
+}
+strong{
+  color: chartreuse;
 }
