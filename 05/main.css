@@ -18,11 +18,11 @@ body {
 .social {
   text-decoration: none;
   width: 100%;
-  color: rgb(255, 255, 255);
+  color: rgb(2, 2, 2);
   font-weight: bold;
 }
 .social {
-  color: chartreuse;
+  color: rgb(255, 255, 255);
 }
 .nav-list {
   list-style-type: none;
@@ -61,12 +61,35 @@ body {
 }
 .banner-text {
   color: aliceblue;
- font-size: 3rem;
+  font-size: 3rem;
 }
-h3{
+h3 {
   color: #fff;
   font-size: 2rem;
 }
-strong{
+strong {
   color: chartreuse;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.socaity {
+  margin: 0.7rem;
+  padding: 10px;
+}
+.socaity:hover {
+  border: 2px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff25;
+}
+/* cards */
+.grid-container {
+  background: #000;
+  display: grid;
+  column-gap: 50px;
 }
