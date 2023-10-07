@@ -21,6 +21,9 @@ body {
   color: rgb(2, 2, 2);
   font-weight: bold;
 }
+i {
+  margin: 0.3rem;
+}
 .social {
   color: rgb(255, 255, 255);
 }
@@ -40,6 +43,7 @@ body {
   width: 4rem;
   height: 4rem;
   margin-right: 30%;
+  border-radius: 50%;
 }
 #welcome-section {
   margin-top: 4rem;
@@ -89,7 +93,28 @@ ul {
 }
 /* cards */
 .grid-container {
-  background: #000;
   display: grid;
-  column-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+}
+.card {
+  background: #c72828;
+  margin: 1rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
