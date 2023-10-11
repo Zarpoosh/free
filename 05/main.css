@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.863);
+  background-color: black;
 }
 
 #navbar {
@@ -98,12 +98,25 @@ ul {
   grid-template-columns: 1fr 1fr 1fr;
   margin: 2rem;
 }
+
 .card {
   background: #000000d2;
   margin: 1rem;
   border: 2px solid black;
   border-radius: 1rem;
+  border: 2px solid chartreuse;
+  /* animation: ; */
 }
+/* @keyframes movefrombottom {
+  0%{
+      transform: translateY(100px);
+      opacity: 0;
+  }
+  100%{
+      transform: translateY(0px);
+      opacity: 1;
+  }
+} */
 .card-header {
   border-bottom: 1px solid gray;
   padding: 0.1rem;
@@ -113,7 +126,8 @@ ul {
   color: chartreuse;
 }
 .card:hover {
-  border: 2px solid chartreuse;
+  transform: translateY(-20px);
+  transition: all 1s;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   transition: all 200ms ease-out;
 }
@@ -158,7 +172,7 @@ ul {
   font-size: 1.2rem;
   color: #fff;
 }
-.about-text h1{
+.about-text h1 {
   font-size: 2rem;
   color: #fff;
 }
@@ -169,12 +183,12 @@ ul {
 }
 
 @media only screen and (max-width: 976px) {
-  .about{
+  .about {
     display: flex;
     text-align: center;
     flex-direction: column;
   }
-  .about-text p{
+  .about-text p {
     margin-top: 1rem;
   }
 }
