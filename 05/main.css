@@ -9,10 +9,10 @@ body {
 
 #navbar {
   background-color: rgb(114, 228, 0);
-  width: 100%;
+ width: 100%;
   padding: 0.6rem;
   display: flex;
-  margin-left: auto;
+  
   position: fixed;
 }
 .nav-link,
@@ -30,11 +30,19 @@ i {
 }
 .nav-list {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+
   margin-top: 1.2rem;
   margin-left: 1rem;
+}
+
+@media only screen and (max-width: 456px) {
+  .nav-ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+ 
+ 
 }
 
 .nav-item {
@@ -105,18 +113,8 @@ ul {
   border: 2px solid black;
   border-radius: 1rem;
   border: 2px solid chartreuse;
-  /* animation: ; */
 }
-/* @keyframes movefrombottom {
-  0%{
-      transform: translateY(100px);
-      opacity: 0;
-  }
-  100%{
-      transform: translateY(0px);
-      opacity: 1;
-  }
-} */
+
 .card-header {
   border-bottom: 1px solid gray;
   padding: 0.1rem;
