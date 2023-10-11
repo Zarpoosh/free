@@ -9,10 +9,10 @@ body {
 
 #navbar {
   background-color: rgb(114, 228, 0);
- width: 100%;
+  width: 100%;
   padding: 0.6rem;
   display: flex;
-  
+
   position: fixed;
 }
 .nav-link,
@@ -39,10 +39,7 @@ i {
   .nav-ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
   }
- 
- 
 }
 
 .nav-item {
@@ -206,12 +203,7 @@ ul {
   cursor: pointer;
   font-size: 1rem;
 }
-.bcak a{
+.bcak a {
   text-decoration: none;
   color: chartreuse;
-}
-.bcak a:hover {
-  color: black;
-  background-color: chartreuse;
-  padding: 0.8rem;
 }
