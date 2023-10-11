@@ -192,3 +192,24 @@ ul {
     margin-top: 1rem;
   }
 }
+.contact-link {
+  text-decoration: none;
+  color: #fff;
+}
+.bcak {
+  background-color: black;
+  padding: 0.5rem;
+  border: 1px solid chartreuse;
+  color: chartreuse;
+  display: inline;
+  position: fixed;
+  bottom: 0;
+  margin: 1rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.bcak:hover {
+  color: black;
+  background-color: chartreuse;
+}
