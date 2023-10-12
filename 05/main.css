@@ -8,10 +8,12 @@ body {
 }
 
 #navbar {
-  background-color: rgb(114, 228, 0);
+  background-color: chartreuse;
   width: 100%;
   padding: 0.6rem;
   display: flex;
+  top: 0;
+  left: 0;
 
   position: fixed;
 }
@@ -45,17 +47,11 @@ i {
 .nav-item {
   margin-right: 2rem;
 }
-.navbar-logo {
-  width: 4rem;
-  height: 4rem;
-  margin-right: 30%;
-  border-radius: 50%;
-}
 #welcome-section {
   margin-top: 4rem;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.8)),
-    url(./image/what-is-binary-and-how-does-it-work-4692749-1-1eaec2e636424e71bb35419ef8d5005b.png);
+    url(https://user-images.githubusercontent.com/122268379/274318350-f8aeea41-40dd-451b-8fa0-fb96caab223c.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -156,6 +152,12 @@ ul {
   width: 30rem;
   height: 30rem;
 }
+@media only screen and (max-width: 500px) {
+  .about-img {
+    width: 20rem;
+    height: 20rem;
+  }
+}
 .about-text {
   justify-content: center;
   padding: 3rem;
@@ -187,6 +189,9 @@ ul {
     margin-top: 1rem;
   }
 }
+#contact {
+  width: 100%;
+}
 .contact-link {
   text-decoration: none;
   color: #fff;
@@ -195,11 +200,11 @@ ul {
   background-color: black;
   padding: 0.5rem;
   border: 1px solid chartreuse;
-  display: inline;
   position: fixed;
-  bottom: 0;
-  margin: 1rem;
-  border-radius: 0.6rem;
+  bottom: 4rem;
+  left: 0;
+  /* margin: 1rem; */
+  border-radius: 0 0.6rem 0.6rem 0;
   cursor: pointer;
   font-size: 1rem;
 }
