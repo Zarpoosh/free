@@ -158,6 +158,12 @@ ul {
     height: 20rem;
   }
 }
+@media only screen and (max-width: 345px) {
+  .about-img {
+    width: 15rem;
+    height: 15rem;
+  }
+}
 .about-text {
   justify-content: center;
   padding: 3rem;
