@@ -5,12 +5,14 @@ body {
   display: flex;
   width: 100%;
   justify-content: center;
+  background-color: #000000a6;
+  /* background-repeat: no-repeat;
   background: linear-gradient(
       rgba(12, 88, 139, 0.363),
       rgba(27, 71, 216, 0.795)
     ),
-    url(./image/siriapps_nature_54275.jpg);
-  background-size: cover;
+    url(https://user-images.githubusercontent.com/122268379/274932713-402ac56d-3960-4e3d-9e1a-014219f06b1d.jpg);
+  background-size: cover; */
 }
 
 h1 {
